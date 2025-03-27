@@ -101,6 +101,12 @@ h4{
   text-align: center;
 }
 @media (max-width : 900px){
+  .exp{
+    width: 70px;
+  }
+  .backend{
+    gap: 5px;
+  }
   .title{
     font-size: 1rem;
   }

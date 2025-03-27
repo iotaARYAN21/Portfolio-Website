@@ -100,7 +100,7 @@ function App(){
             <h4>Node JS</h4>
           </div>
           <div className="image">
-            <img src={express} style={{paddingLeft:"5px"}} alt="" />
+            <img className="exp" src={express} style={{paddingLeft:"5px"}} alt="" />
             <h4>Express JS</h4>
           </div>
           <div className="image">
