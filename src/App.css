@@ -1,0 +1,183 @@
+body{
+  height: 100vh;
+  /* width: 100vw; */
+  /* overflow: auto; */
+  background:linear-gradient(45deg , #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+  background-size: 1000% 1000%;
+  /* background-blend-mode: screen; */
+  animation: gradientAnimation 8s ease infinite;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  max-width: 50vw;
+  /* padding-top: 100px; */
+}
+@keyframes gradientAnimation {
+  0% {background-position: 0% 50%;}
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+h2{
+  font-size: 4rem;
+}
+.intro{
+  display: flex;
+  border: 2px solid;
+  padding: 1rem;
+  margin: 5px 10px;
+
+}
+
+.projectslist > h1{
+  /* font-size: 5rem; */
+  text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.grid-item{ 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  /* width: 100%;  */
+  border: 2px solid ;
+  /* overflow: hidden; */
+}
+.grid-item img{
+  display: block;
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+p{
+  font-weight: 600;
+  text-align: center;
+  font-size: 1rem;
+}
+video{
+  height: 8rem;
+  border-radius:10px ;
+}
+.techstack{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.frontend,.backend{
+  /* display: flex; */
+  border: 2px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.image>img{
+  height: 5rem;
+}
+h4{
+  text-align: center;
+}
+@media (max-width : 900px){
+  .title{
+    font-size: 1rem;
+  }
+  .container{
+    max-width: 80vw;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-item{
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+  }
+  #brief > h1{
+    font-size: larger;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  .intro{
+    /* width:70vw; */
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .intro > img{
+    height: 100px;
+    float: left;
+    /* width:20px; */
+  }
+  video{
+    height: 5rem;
+  }
+  .techstack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
+.social-media{
+  display: flex;
+  justify-content:center;
+  gap: 2rem;
+}
+.social-media > a>img{
+  height:30px;
+  margin: 25px 0;
+}
+footer > *{
+  margin: 10px 0;
+}
+form > h1{
+  text-align: center;
+}
+#brief h1{
+  text-align: left;
+}
+.title{
+  font-size: 3rem;
+}
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.intro > img{
+  animation: rotate 2s linear  infinite;
+}
+/* the rotate animation rotates an element
+ from 0 degrees to 360 degrees over a duration of 2 seconds. 
+ The linear timing function ensures the animation 
+ proceeds at a constant pace throughout,
+ and the infinite keyword makes the animation repeat indefinitely. */
