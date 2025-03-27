@@ -40,7 +40,7 @@ function App(){
         <Wordchange iter={val%2}></Wordchange>
       </div>
       {/* <div i></div> */}
-      <img src={image} alt="" width={200} />
+      <img src={image} alt="" width={160} />
     </div>
     <Dsa></Dsa>
     {/* <Dsa></Dsa> */}
