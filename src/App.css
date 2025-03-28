@@ -187,6 +187,7 @@ form > h1{
 .intro > img{
   animation: rotate 2s linear  infinite;
 }
+
 .grid-item > a{
   display:flex;
   justify-content: center;

@@ -48,17 +48,18 @@ function App(){
       <h1 className="title">Projects</h1>
       <div className="grid">
         <div className="grid-item">
-          <a href="https://rss-feed-feed-git-main-aryans-projects-317bb291.vercel.app"><img src={rss}  alt="" /></a>
+          <a href="https://rss-feed-feed-git-main-aryans-projects-317bb291.vercel.app" target="_blank" ><img src={rss}  alt="" /></a>
           <p>RSS-Feed for Tech Blog</p>  
         </div>
         <div className="grid-item">
           {/* <img src={clock} alt="" /> */}
-          <a href="https://iotaaryan21.github.io/React-Clock/"><video src={clock} autoPlay loop muted height={200} ></video></a>
+          <a href="https://iotaaryan21.github.io/React-Clock/" ><video src={clock} autoPlay loop muted height={200} ></video></a>
           <p style={{paddingLeft:5}}>Analoge Clock</p>
         </div>
         <div className="grid-item">
-          <img src={frm} alt="" />
-          <a href="https://iotaaryan21.github.io/React-Form/" ><p>React Form</p></a>
+          
+          <a href="https://iotaaryan21.github.io/React-Form/" target="_blank" ><img src={frm} alt="" /></a>
+          <p>React Form</p>
         </div>
         <div className="grid-item">
           <a href="https://iotaaryan21.github.io/stopwatch/"><video src={stopwatch}  autoPlay loop muted height={180} ></video></a>
