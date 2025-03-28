@@ -48,7 +48,7 @@ function App(){
       <h1 className="title">Projects</h1>
       <div className="grid">
         <div className="grid-item">
-          <a href=""><img src={rss}  alt="" /></a>
+          <a href="https://rss-feed-feed-git-main-aryans-projects-317bb291.vercel.app"><img src={rss}  alt="" /></a>
           <p>RSS-Feed for Tech Blog</p>  
         </div>
         <div className="grid-item">
