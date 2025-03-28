@@ -150,6 +150,11 @@ h4{
     /* align-items: center; */
   }
 }
+@media (max-width : 390px){
+  .intro img{
+    width: 10rem;
+  }
+}
 .social-media{
   display: flex;
   justify-content:center;
@@ -182,6 +187,18 @@ form > h1{
 .intro > img{
   animation: rotate 2s linear  infinite;
 }
+.grid-item > a{
+  display:flex;
+  justify-content: center;
+  width: fit-content;
+}
+.intro>img{
+  width: 20rem;
+}
+/* p{
+  display: inline;
+  word-break: break-all;
+} */
 /* the rotate animation rotates an element
  from 0 degrees to 360 degrees over a duration of 2 seconds. 
  The linear timing function ensures the animation 

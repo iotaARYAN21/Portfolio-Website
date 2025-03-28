@@ -40,7 +40,7 @@ function App(){
         <Wordchange iter={val%2}></Wordchange>
       </div>
       {/* <div i></div> */}
-      <img src={image} alt="" width={160} />
+      <img src={image} alt=""  />
     </div>
     <Dsa></Dsa>
     {/* <Dsa></Dsa> */}
@@ -48,7 +48,7 @@ function App(){
       <h1 className="title">Projects</h1>
       <div className="grid">
         <div className="grid-item">
-          <img src={rss} alt="" />
+          <a href=""><img src={rss}  alt="" /></a>
           <p>RSS-Feed for Tech Blog</p>  
         </div>
         <div className="grid-item">
